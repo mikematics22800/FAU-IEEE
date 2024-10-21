@@ -2,3 +2,51 @@
 @tailwind components;
 @tailwind utilities;
 
+.layout {
+  @apply w-screen flex flex-col justify-between items-center
+}
+
+.layout nav {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  @apply w-full px-20 h-20 bg-blue-800 text-white flex justify-between items-center fixed top-0 
+}
+
+.layout nav .logo {
+  @apply flex items-center gap-5
+}
+
+.layout nav .logo img {
+  @apply h-12 rounded-full
+}
+
+.layout nav .logo h1 {
+  @apply font-bold text-2xl
+}
+
+.layout nav .links {
+  @apply flex gap-20
+}
+
+.layout nav .links .link {
+  @apply font-bold text-xl hover:text-blue-300 duration-200
+}
+
+.layout footer {
+  @apply flex flex-col items-center justify-center gap-10 w-full fixed bottom-0 bg-blue-800 h-20
+}
+
+.layout footer .links {
+  @apply flex gap-10 sm:gap-20 !text-6xl
+}
+
+.layout footer .links img {
+  @apply h-16
+}
+
+.home {
+  @apply w-full flex flex-col
+}
+
+.about {
+  @apply w-full flex flex-col
+}
