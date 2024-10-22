@@ -24,7 +24,7 @@
 }
 
 .layout nav .logo h1 {
-  @apply font-bold text-2xl
+  @apply font-bold text-2xl hidden lg:block
 }
 
 .layout nav .links {
