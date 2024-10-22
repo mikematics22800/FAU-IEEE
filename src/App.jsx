@@ -1,29 +1,22 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider, createRoutesFromElements, Route } from "react-router-dom";
 import { Layout, Home, About } from "./routes";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<Layout />}>
+      <Route index element={<Home />} />
+      <Route path="about" element={<About />} />
+    </Route>
+  ),
   {
-    path: "/",
-    element: <Layout />,
-    children: [
-      {
-        index: true,
-        element: <Home />,
-      },
-      {
-        path: "about",
-        element: <About />,
-      },
-    ],
-  },
-]);
+    basename: "/FAU-IEEE"
+  }
+);
 
 function App() {
   return (
-    <RouterProvider router={router}>
-      
-    </RouterProvider>
-  )
+    <RouterProvider router={router} />
+  );
 }
 
-export default App
+export default App;
