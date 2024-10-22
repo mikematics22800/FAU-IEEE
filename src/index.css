@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .layout {
   @apply w-screen flex flex-col justify-between items-center
 }
@@ -44,7 +48,19 @@
 }
 
 .home {
-  @apply w-full flex flex-col
+  @apply w-full flex flex-col py-40 px-20 
+}
+
+.home .hero {
+  @apply w-full flex flex-col xl:flex-row gap-10 items-start
+}
+
+.home .hero img {
+  @apply w-[1000px] rounded-md
+}
+
+.home .hero h1 {
+  @apply text-4xl font-bold mb-5
 }
 
 .about {

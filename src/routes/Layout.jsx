@@ -1,11 +1,12 @@
 import React from 'react';
 import { Outlet, Link } from 'react-router-dom';
-import fauieee from '../../assets/fauieee.jpeg';
+import fauieee from '../assets/fauieee.jpeg';
 import { Tooltip } from '@mui/material';
-import discord from '../../assets/discord.svg';
-import instagram from '../../assets/instagram.svg';
-import x from '../../assets/x.svg';
-import tiktok from '../../assets/tiktok.svg';
+import discord from '../assets/discord.svg';
+import instagram from '../assets/instagram.svg';
+import x from '../assets/x.svg';
+import tiktok from '../assets/tiktok.svg';
+import calendar from '../assets/calendar.svg';
 
 const Layout = () => {
   return (
@@ -30,18 +31,23 @@ const Layout = () => {
             </a>
           </Tooltip>
           <Tooltip title="Instagram" placement="top" arrow>
-            <a href='https://www.instagram.com/fau.ieee/'>
+            <a href='https://www.instagram.com/ieeefau/'>
               <img src={instagram} alt='instagram'/>
             </a>
           </Tooltip>
           <Tooltip title="X" placement="top" arrow>
-            <a href='https://x.com/fau_ieee' className='bg-white'>
+            <a href='https://x.com/fau_ieee'>
               <img src={x} alt='x'/>
             </a>
           </Tooltip>
           <Tooltip title="TikTok" placement="top" arrow>
             <a href='https://www.tiktok.com/@fau.ieee'>
               <img src={tiktok} alt='tiktok'/>
+            </a>
+          </Tooltip>
+          <Tooltip title="Events" placement='top' arrow>
+            <a href="https://fau.campuslabs.com/engage/organization/ieee/events">
+              <img src={calendar} alt='Events'/>
             </a>
           </Tooltip>
         </div>
