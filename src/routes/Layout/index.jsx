@@ -6,9 +6,6 @@ import discord from '../../assets/discord.svg';
 import instagram from '../../assets/instagram.svg';
 import x from '../../assets/x.svg';
 import tiktok from '../../assets/tiktok.svg';
-import linkedin from '../../assets/linkedin.svg';
-
-
 
 const Layout = () => {
   return (
@@ -45,11 +42,6 @@ const Layout = () => {
           <Tooltip title="TikTok" placement="top" arrow>
             <a href='https://www.tiktok.com/@fau.ieee'>
               <img src={tiktok} alt='tiktok'/>
-            </a>
-          </Tooltip>
-          <Tooltip title="LinkedIn" placement="top" arrow>
-            <a href='https://www.linkedin.com/company/fau-iee-student-branch/about/?viewAsMember=true'>
-              <img src={linkedin} alt='linkedin'/>
             </a>
           </Tooltip>
         </div>
