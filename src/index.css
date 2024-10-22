@@ -12,7 +12,7 @@
 
 .layout nav {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-  @apply w-full px-20 h-20 bg-blue-800 text-white flex justify-between items-center fixed top-0 
+  @apply w-full sm:px-20 px-10 h-20 bg-blue-800 text-white flex justify-between items-center fixed top-0 
 }
 
 .layout nav .logo {
@@ -44,15 +44,15 @@
 }
 
 .layout footer .links img {
-  @apply h-16
+  @apply h-12
 }
 
 .home {
-  @apply w-full flex flex-col py-40 px-20 
+  @apply w-full flex flex-col sm:py-40 sm:px-20 px-10 py-28
 }
 
 .home .hero {
-  @apply w-full flex flex-col xl:flex-row gap-10 items-start
+  @apply w-full flex flex-col 2xl:flex-row gap-10 items-start
 }
 
 .home .hero img {
@@ -60,7 +60,7 @@
 }
 
 .home .hero h1 {
-  @apply text-4xl font-bold mb-5
+  @apply sm:text-4xl text-2xl font-bold mb-5
 }
 
 .about {
