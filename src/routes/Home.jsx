@@ -1,4 +1,3 @@
-import React from 'react'
 import ribbon from '../assets/ribbon.jpg'
 
 const Home = () => {
@@ -6,7 +5,7 @@ const Home = () => {
     <div className="home">
       <div className='hero'>
         <img src={ribbon}/>
-        <div className='text'>
+        <div>
           <h1>Welcome Fellow Engineers!</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cumque. Non a laborum quos reprehenderit sint fuga libero nostrum omnis aut suscipit, corrupti ab ducimus modi ea rem porro ullam?
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cumque. Non a laborum quos reprehenderit sint fuga libero nostrum omnis aut suscipit, corrupti ab ducimus modi ea rem porro ullam?

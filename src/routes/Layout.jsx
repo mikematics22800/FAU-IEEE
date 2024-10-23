@@ -1,4 +1,3 @@
-import React from 'react';
 import { Outlet, Link } from 'react-router-dom';
 import fauieee from '../assets/fauieee.jpeg';
 import { Tooltip } from '@mui/material';

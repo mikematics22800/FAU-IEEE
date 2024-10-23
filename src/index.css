@@ -12,18 +12,18 @@
 
 .layout nav {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-  @apply w-full sm:px-20 px-10 h-20 bg-blue-800 text-white flex justify-between items-center fixed top-0 
+  @apply w-full sm:px-20 px-10 h-20 bg-blue-800 text-white flex justify-between items-center fixed top-0 z-50
 }
 
 .layout nav .logo {
   @apply flex items-center gap-5
 }
 
-.layout nav .logo img {
+.layout nav img {
   @apply h-12 rounded-full
 }
 
-.layout nav .logo h1 {
+.layout nav h1 {
   @apply font-bold text-2xl hidden lg:block
 }
 
@@ -31,38 +31,58 @@
   @apply flex gap-20
 }
 
-.layout nav .links .link {
+.layout nav .link {
   @apply font-bold text-xl hover:text-blue-300 duration-200
 }
 
 .layout footer {
-  @apply flex flex-col items-center justify-center gap-10 w-full fixed bottom-0 bg-blue-800 h-20
+  @apply flex flex-col items-center justify-center gap-10 w-full fixed bottom-0 bg-blue-800 h-20 z-50
 }
 
 .layout footer .links {
   @apply flex gap-10 sm:gap-20 !text-6xl
 }
 
-.layout footer .links img {
+.layout footer img {
   @apply h-12
 }
 
-.home {
+.home, .about {
   @apply w-full flex flex-col sm:py-40 sm:px-20 px-10 py-28
 }
 
-.home .hero {
+.hero {
   @apply w-full flex flex-col 2xl:flex-row gap-10 items-start
 }
 
-.home .hero img {
+.home img {
   @apply w-[1000px] rounded-md
 }
 
-.home .hero h1 {
-  @apply sm:text-4xl text-2xl font-bold mb-5
+.home h1 {
+  @apply sm:text-4xl text-2xl font-bold mb-2 sm:mb-5
 }
 
-.about {
-  @apply w-full flex flex-col
+.about .gallery {
+  @apply flex flex-col gap-10 place-items-center
+}
+
+.about img {
+  @apply w-[1000px] rounded-md
+}
+
+.about .arrows {
+  @apply flex gap-10
+}
+
+.about .text {
+  @apply w-full flex flex-col gap-10
+}
+
+.about h1 {
+  @apply text-2xl font-bold mb-2
+}
+
+.about a {
+  @apply text-purple-500 text-xl font-bold mb-5
 }
