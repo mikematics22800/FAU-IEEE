@@ -36,7 +36,7 @@
 }
 
 .layout footer {
-  @apply flex flex-col items-center justify-center gap-10 w-full fixed bottom-0 bg-blue-800 h-20 z-50
+  @apply flex flex-col items-center justify-center gap-10 w-full fixed bottom-0 bg-blue-800 h-20 z-50 px-10
 }
 
 .layout footer .links {
