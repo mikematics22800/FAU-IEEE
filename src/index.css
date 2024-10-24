@@ -84,5 +84,5 @@
 }
 
 .about a {
-  @apply text-purple-500 text-xl font-bold mb-5
+  @apply text-purple-500 text-lg font-bold
 }

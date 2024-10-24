@@ -7,18 +7,16 @@ const Home = () => {
         <img src={ribbon}/>
         <div>
           <h1>Welcome Fellow Engineers!</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cumque. Non a laborum quos reprehenderit sint fuga libero nostrum omnis aut suscipit, corrupti ab ducimus modi ea rem porro ullam?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cumque. Non a laborum quos reprehenderit sint fuga libero nostrum omnis aut suscipit, corrupti ab ducimus modi ea rem porro ullam?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cumque. Non a laborum quos reprehenderit sint fuga libero nostrum omnis aut suscipit, corrupti ab ducimus modi ea rem porro ullam?
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni soluta porro praesentium non ducimus enim nobis, tempora in maxime commodi cupiditate ipsa aut saepe! Dolorem commodi sit architecto molestiae quasi.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cumque. Non a laborum quos reprehenderit sint fuga libero nostrum omnis aut suscipit, corrupti ab ducimus modi ea rem porro ullam?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cumque. Non a laborum quos reprehenderit sint fuga libero nostrum omnis aut suscipit, corrupti ab ducimus modi ea rem porro ullam?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cumque. Non a laborum quos reprehenderit sint fuga libero nostrum omnis aut suscipit, corrupti ab ducimus modi ea rem porro ullam?
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni soluta porro praesentium non ducimus enim nobis, tempora in maxime commodi cupiditate ipsa aut saepe! Dolorem commodi sit architecto molestiae quasi.
+          <p>
+            This club will help you develop your professional engineering skills to land a great internship and a dream job in hardware, software, and robotics.
+            You will learn invaluable skills including printed circuit board (PCB) design, Altium, soldering, digital multimeter, power supply, programming, troubleshooting, oscilloscope, 3D printing, computer-aided design (CAD), and simulation.
+            The Institute of Electronics and Electrical Engineering is a professional association headquartered in New York City, dedicated to advancing technological innovation and excellence.
+            Design Electronics and join the team that makes it happen!
           </p>
         </div>
       </div>
     </div>
   )}
+  
 
 export default Home

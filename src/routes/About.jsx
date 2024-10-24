@@ -26,14 +26,12 @@ const About = () => {
         <div className='text'>
           <div>
             <h1>Meet The Gang!</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cumque. Non a laborum quos reprehenderit sint fuga libero nostrum omnis aut suscipit, corrupti ab ducimus modi ea rem porro ullam?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cumque. Non a laborum quos reprehenderit sint fuga libero nostrum omnis aut suscipit, corrupti ab ducimus modi ea rem porro ullam?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cumque. Non a laborum quos reprehenderit sint fuga libero nostrum omnis aut suscipit, corrupti ab ducimus modi ea rem porro ullam?
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni soluta porro praesentium non ducimus enim nobis, tempora in maxime commodi cupiditate ipsa aut saepe! Dolorem commodi sit architecto molestiae quasi.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cumque. Non a laborum quos reprehenderit sint fuga libero nostrum omnis aut suscipit, corrupti ab ducimus modi ea rem porro ullam?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cumque. Non a laborum quos reprehenderit sint fuga libero nostrum omnis aut suscipit, corrupti ab ducimus modi ea rem porro ullam?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cumque. Non a laborum quos reprehenderit sint fuga libero nostrum omnis aut suscipit, corrupti ab ducimus modi ea rem porro ullam?
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni soluta porro praesentium non ducimus enim nobis, tempora in maxime commodi cupiditate ipsa aut saepe! Dolorem commodi sit architecto molestiae quasi.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, cupiditate id mollitia cumque dolore excepturi culpa, velit tempora inventore totam veniam, exercitationem esse! Eius dicta obcaecati doloremque porro explicabo dolores?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, sapiente animi dolore hic adipisci dignissimos earum minima dolorem quasi vitae? Dicta explicabo iste laborum eveniet sunt incidunt quaerat quidem vero!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum necessitatibus accusamus, sunt omnis ipsum ipsam adipisci distinctio fugit reprehenderit dolorum culpa esse quo perspiciatis similique quisquam! Nobis a ullam quidem.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed blanditiis omnis eum sequi vero dicta totam possimus, temporibus, porro ipsam deserunt odio perferendis consequatur distinctio neque, eos optio quae! Nostrum?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quod, commodi velit harum exercitationem assumenda praesentium! Aliquid deleniti, molestiae minima minus voluptate excepturi rerum iste debitis facilis cupiditate maiores accusamus!
+            <p>
             </p>
           </div>
           <div>
