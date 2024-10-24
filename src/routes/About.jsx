@@ -34,10 +34,6 @@ const About = () => {
             <p>
             </p>
           </div>
-          <div>
-            <h1>Active Projects</h1>
-            <a href="https://ieeesoutheastcon.org/student-competitions/">Mining Mayhem</a>
-          </div>
         </div>
       </div>
     </div>
